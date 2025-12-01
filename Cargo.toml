@@ -1,0 +1,16 @@
+[package]
+name = "bridge_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+byteorder = "1.4"
+ctrlc = "3.2"
+nix = "0.26"
+libc = "0.2"
+hmac = "0.12"
+sm3 = "0.4"
+rand = "0.8"
+openssl = "0.10"
+hex = "0.4"
